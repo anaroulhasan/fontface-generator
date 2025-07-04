@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function () {const images = document.getElementsByTagName('img');for (let i = 0; i < images.length; i++) {const originalSrc = images[i].src;images[i].src = "";(function(img, src, delay) {setTimeout(function() {img.src = src;}, delay);})(images[i], originalSrc, i * 10000);}});
